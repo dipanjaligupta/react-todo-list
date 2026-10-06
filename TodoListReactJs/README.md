@@ -5,7 +5,7 @@ A basic Todo List application built using React JS.
 ## Features
 
 - Add new tasks
-- 
+  
 
 ## Technologies Used
 

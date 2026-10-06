@@ -1,0 +1,98 @@
+
+.todo-container {
+    width: 450px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #18181b;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    color: #f4f4f5;
+}
+
+/* Heading */
+.todo-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+/* Input + Button */
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+.input-section input {
+    flex: 1;
+    padding: 12px;
+    background-color: #27272a;
+    color: #ffffff;
+    border: 1px solid #3f3f46;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-section input::placeholder {
+    color: #a1a1aa;
+}
+
+.input-section input:focus {
+    border-color: #71717a;
+}
+
+/* Add Button */
+.input-section button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #52525b;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.input-section button:hover {
+    background-color: #71717a;
+}
+
+/* Horizontal line */
+.todo-container hr {
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid #3f3f46;
+}
+
+/* Todo heading */
+.todo-container h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #e4e4e7;
+}
+
+/* Todo list */
+.todo-container ul {
+    padding: 0;
+    list-style: none;
+}
+
+/* Individual Todo */
+.todo-container li {
+    background-color: #27272a;
+    color: #e4e4e7;
+    padding: 13px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    border-left: 3px solid #71717a;
+    transition: 0.2s;
+}
+
+.todo-container li:hover {
+    background-color: #3f3f46;
+    transform: translateX(3px);
+}
+
